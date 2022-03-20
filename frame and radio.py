@@ -23,6 +23,7 @@ for text,mode,rowPos,columnPos in modes:
 def clicked(value):
     myLabel = Label(frame,text=value)
     myLabel.grid(row=5)
+    print(value)
 #Radiobutton(root,text="answer01",variable=r,value=1,command=lambda:clicked(r.get())).pack()
 #Radiobutton(root,text="answer01",variable=r,value=2,command=lambda:clicked(r.get())).pack()
 
